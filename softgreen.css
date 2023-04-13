@@ -1,0 +1,495 @@
+/* soft_green.css
+..............................................................*/
+
+
+body {
+  background:#000;
+  margin:0;
+  font:x-small "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+  text-align:center;
+  color: gray;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+  }
+a:link {
+  color: #444254;
+  text-decoration:none;
+  }
+a:visited {
+  color: #444254;
+  text-decoration:none;
+  }
+a:hover {
+  color: #85b666;
+  text-decoration:none;
+  }
+a img {
+  border-width:0;
+  }
+
+
+/* Header
+----------------------------------------------- */
+
+#header {
+  width:780px;
+  margin:0 auto 10px;
+  border:1px solid #333;
+  }
+#blog-title {
+  margin:5px 5px 0;
+  padding:20px 20px .25em;
+  border:1px solid #222;
+  border-width:1px 1px 0;
+  font-size:200%;
+  line-height:1.2em;
+  color:#ccc;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  }
+#blog-title a {
+  color:#ccc;
+  text-decoration:none;
+  }
+#blog-title a:hover {
+  color:#ad9;
+  }
+#description {
+  margin:0 5px 5px;
+  padding:0 20px 20px;
+  border:1px solid #222;
+  border-width:0 1px 1px;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#777;
+  }
+
+
+/* Content
+----------------------------------------------- */
+
+#content {
+  width:880px;
+  margin:0 auto;
+  padding:40px;
+  text-align:left;
+  }
+#main {
+  padding-top:20px;
+  width:650px;
+  float:right;
+  }
+#sidebar {
+  padding-top:20px;
+  width:200px;
+  float:left;
+  }
+
+
+/* Headings
+----------------------------------------------- */
+
+h2 {
+  margin:1.5em 0 .75em;
+  font:bold 78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#ccc;
+  }
+h2 a:link {
+  color: #85b666;
+  text-decoration:none;
+  }
+h2 a:hover {
+  color: #444254;
+  text-decoration:none;
+  }
+h2 a:visited {
+  color: #85b666;
+  text-decoration:none;
+  }
+h2 em {
+  font-style: normal;
+  font-weight: bold;
+  color: #b3cFc1;
+  }
+
+/* Posts
+----------------------------------------------- */
+
+.date-header {
+ margin:1.5em 0 .5em;
+ }
+.post {
+ margin:.5em 0 1.5em;
+ border-bottom:1px solid #222;
+ padding-bottom:1.5em;
+  }
+
+.post b {
+ color: #B8B7B7;
+ }
+
+.post-title {
+ margin:.25em 0 0;
+ padding:0 0 4px;
+ font-size:75%;
+ line-height:1.4em;
+ color:#ad9;
+ }
+.post-title a {
+ text-decoration:none;
+ color: #A9D516;
+ }
+.post-title a:hover {
+ color: #444254;
+ }
+.post div {
+ margin:0 0 .75em;
+ line-height:1.6em;
+ }
+p.post-footer {
+ margin:-.25em 0 0;
+ color:#FFF;
+ }
+.post-footer em, .comment-link {
+ font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+ text-transform:uppercase;
+ letter-spacing:.1em;
+ }
+.post-footer em {
+ font-style:normal;
+ color:#999;
+ margin-right:.6em;
+ }
+.comment-link {
+ margin-left:.6em;
+ }
+.post img {
+ padding:4px;
+ border:1px solid #222;
+  }
+.post blockquote {
+ margin:1em 20px;
+ }
+.post blockquote p {
+ margin:.75em 0;
+ }
+.postdate { text-align: center; }
+.postdate { float: left; width: 30px; height: 45px; padding: 2px; margin-right: 10px; }
+.postdate { background-color: #FAFAFA; }
+.postdatemonth { background-color: #3E4F4F; }
+.postdatemonth { border-bottom-style: solid; border-width: 3px; border-color: #303E3E; }
+.postdateday { font-size: 16pt; line-height: 18pt; color: #222D2D; }
+
+/* Comments
+----------------------------------------------- */
+
+#comments h4 {
+  margin:1em 0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#999;
+  }
+#comments h4 strong {
+  font-size:130%;
+  }
+#comments-block {
+  margin:1em 0 1.5em;
+  line-height:1.6em;
+  }
+#comments-block dt {
+  margin:.5em 0;
+  }
+#comments-block dd {
+  margin:.25em 0 0;
+  }
+#comments-block dd.comment-timestamp {
+  margin:-.25em 0 2em;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+#comments-block dd p {
+  margin:0 0 .75em;
+  }
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+
+/* Sidebar Content
+----------------------------------------------- */
+#sidebar ul {
+  margin:0 0 1.5em;
+  padding:0 0 1.5em;
+  border-bottom:1px solid #222;
+  list-style:none;
+  }
+#sidebar li {
+  margin:0;
+  padding:0 0 .25em 15px;
+  text-indent:-15px;
+  line-height:1.5em;
+  }
+#sidebar p {
+  color:#999;
+  line-height:1.5em;
+  }
+
+#sidebar a img {
+  padding:4px;
+  border:1px solid #222;
+}
+
+#sidebar a:hover img {
+  padding:4px;
+  border:1px solid #85b666;
+}
+
+ /* Profile
+----------------------------------------------- */
+
+#profile-container {
+  margin:0 0 1.5em;
+  border-bottom:1px dotted #444;
+  padding-bottom:1.5em;
+  }
+ .profile-datablock {
+  margin:.5em 0 .5em;
+  }
+ .profile-img {
+  display:inline;
+  }
+ .profile-img img {
+  float:left;
+  padding:4px;
+  border:1px solid #222;
+  margin:0 8px 3px 0;
+  }
+ .profile-data {
+  margin:0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+ .profile-data strong {
+  display:none;
+  }
+ .profile-textblock {
+  margin:0 0 .5em;
+  }
+ .profile-link {
+  margin:0;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+
+
+/* Footer
+----------------------------------------------- */
+#footer {
+  width:780px;
+  clear:both;
+  margin:0 auto;
+  float: right;
+  }
+#footer hr {
+  display:none;
+  }
+
+/* Header Bar
+------------------------------------------------*/
+
+#hdrnavboxtop {
+  border-bottom: 1px solid #222222;
+  }
+#hdrnavboxmiddle {
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+  }
+#hdrnavboxbottom {
+  border-top: 1px solid #222222;
+  }
+ .hdrnav {
+  font-family:Trebuchet ms, Tahoma, Verdana, Georgia, Arial, sans-serif;
+  color:#AAAAAA;
+  font-size:11px;
+  width: 100%;
+  background-color: #222222;
+  border-bottom: 1px solid #444;
+  }
+ .hdrnav a,
+ .hdrnav a:link,
+ .hdrnav a:visited {
+  color:#AAAAAA;
+  font-weight:normal;
+  text-decoration: none;
+  border:0px;
+  }
+ .hdrnav a:active,
+ .hdrnav a:hover {
+  color:#111111;
+  text-decoration:none;
+  border:0px;
+  }
+ .hdrnavleft {
+  float:left;
+  position:relative;
+  padding:4px 4px 4px 8px;
+  text-align:left;
+  }
+ .hdrnavright {
+  font:bold 78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  color:#777;
+  letter-spacing:5px;
+  padding:4px 8px 4px 4px;
+  text-align:right;
+  }
+ .hdrnavright a,
+ .hdrnavright a:link,
+ .hdrnavright a:visited {
+  font-weight:bold;
+  color:#CCCCCC;
+  text-decoration: none;
+  border:0px;
+  }
+ .hdrnavright a:active,
+ .hdrnavright a:hover {
+  font-weight:bold;
+  color:#FFFFFF;
+  border:0px;
+  }
+ .hdrnavright em {
+  color: #85b666;
+  font-style: normal;
+  font-weight: bold;
+  }
+
+/* Too Cool Footer
+------------------------------------------------*/
+
+ a#ibelieve {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: block;
+  height: 80px;
+  width: 80px;
+  background: url(http://web.archive.org/web/20060716005506/http://www.bobbycox.net/images/57.png) bottom right no-repeat;
+  text-indent: -999em;
+  text-decoration: none;
+  }
+
+/* Linkage Tweaking
+------------------------------------------------*/
+
+ a {
+  text-decoration: none;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+  }
+
+ a em {
+  font-style: normal;
+  font-weight: normal;
+  color: #85b666;
+  }
+
+ #sidebar a:hover em {
+  color:#444254;
+  }
+
+/* Recent Article Positioning
+------------------------------------------------*/
+
+ .article {
+ width: 45%;
+ float:left;
+ margin: 5px 0 1.5px 10px;
+ padding:0 0 4px;
+  }
+ .article:hover {
+ background;
+
+ }
+ .article ul {
+  background: url(http://web.archive.org/web/20060716005506/http://www.bobbycox.net/images/52.gif) no-repeat;
+  font-style: normal;
+  font-weight: normal;
+  list-style: none;
+ }
+ .navigation {
+ margin-top: 10px;
+ margin-bottom: 20px;
+ }
+.alignright {
+margin-top: 10px;
+margin-bottom: 20px;
+float: right;
+}
+
+.alignleft {
+margin-top: 10px;
+margin-bottom: 20px;
+float: left
+}
+
+.sticky {
+ padding:10px;
+ font:bold 78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+ text-transform:uppercase;
+ color:#777;
+ letter-spacing:2px;
+}
+.sticky b {
+ color: #B8B7B7;
+ }
+
+/*lighthouse css
+------------------------------------------------*/
+
+#lightbox {
+	background-color:#000;
+	padding: 10px;
+	#border-bottom: 2px solid #666;
+	#border-right: 2px solid #666;
+       border:1px solid #222;
+	}
+#lightboxCaption {
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}
+
+#lightbox img {
+  border: none;
+}
+
+#overlay img {
+border: none;
+}
+
+#overlay {
+ background-image: url(http://web.archive.org/web/20060716005506/http://www.bobbycox.net/images/overlay.png);
+}
+
+* html #overlay {
+	background-color: #000;
+	back\ground-color: transparent;
+	background-image: url(http://web.archive.org/web/20060716005506/http://www.bobbycox.net/images/blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/overlay.png", sizingMethod="scale");
+	}
+
+/*welcome
+--------------------------------------------------*/
+
+#welcome img {
+  padding:4px;
+  border:1px solid #222;
+  background-image: url(http://web.archive.org/web/20060716005506/http://www.bobbycox.net/images/69.jpg);
+}
